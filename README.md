@@ -21,5 +21,7 @@ pkg install ffmpeg &&
 pkg install wget && 
 pkg install imagemagick &&
 yarn install && yarn &&
+git clone https://github.com/Avi-ofc/PRINCESS-NIDU-MD &&
+cd PRINCESS-NIDU-MD &&
 npm start
 ```
