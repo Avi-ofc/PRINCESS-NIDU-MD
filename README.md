@@ -8,6 +8,9 @@
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBayKmVeVT1-0htIQCJv0fl-dS4ljVPX02EQ&s">
 
+<img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
+
+#Developer AVI
 
 # Termux/ssh/ubuntu
 ```
@@ -26,3 +29,6 @@ git clone https://github.com/Avi-ofc/PRINCESS-NIDU-MD &&
 cd PRINCESS-NIDU-MD &&
 npm start
 ```
+
+
+<img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
