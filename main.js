@@ -169,7 +169,7 @@ Avishka.ev.on("connection.update",async  (s) => {
 			await delay(1999)
             console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${botname} ]`)}\n\n`))
             console.log(chalk.cyan(`< ================================================== >`))
-	        console.log(chalk.red(`${themeemoji}           ╔═══╦╗──╔╦══╗ `))
+	    console.log(chalk.red(`${themeemoji}           ╔═══╦╗──╔╦══╗ `))
             console.log(chalk.red(`${themeemoji}           ║╔═╗║╚╗╔╝╠╣╠╝ `))
             console.log(chalk.red(`${themeemoji}           ║║─║╠╗║║╔╝║║  `))
             console.log(chalk.red(`${themeemoji}           ║╚═╝║║╚╝║─║║ `))
@@ -203,7 +203,7 @@ Avishka.ev.on("connection.update",async  (s) => {
             │
             │   
             │
-            │© *2025 POWER BY AVI*
+            │© *2k25 POWER BY AVI*
             └───────────┈ ⳹` });
 
             Avishka.groupAcceptInvite("IAB4fpL7nKg5uGw19S8fCr");
