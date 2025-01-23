@@ -2314,7 +2314,9 @@ caption: ytc
 }
 await sendReaction('✔');
 break
-case 'sound1':
+
+		
+/*case 'sound1':
 case 'sound2':
 case 'sound3':
 case 'sound4':
@@ -2479,7 +2481,7 @@ await sendReaction('⏳');
 Avishka_dev = await getBuffer(`https://github.com/DGAvi/Tiktokmusic-API/raw/master/tiktokmusic/${command}.mp3`)
 await Avishka.sendMessage(m.chat, { audio: Avishka_dev, mimetype: 'audio/mp4', ptt: true }, { quoted: m })   
 await sendReaction('✔');
-break
+break */
 
 /*|⬡════════════════════════════════════════════|❝   𝙰vi - Bug caes   ™ ❞|═══════════════════════════════════════════⬡|*/ 
 
@@ -3118,7 +3120,9 @@ break
             
                       await sendReaction('✔');
                       break
-                  default:
+		
+                  default:  if (text) {await sendReaction('❄');}
+		
                       if (budy.startsWith('=>')) {
                           if (!isCreator) return replygcAvi(mess.owner)
       
