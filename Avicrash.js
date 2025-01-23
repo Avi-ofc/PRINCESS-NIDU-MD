@@ -2812,7 +2812,7 @@ break
           showAdAttribution: true,
           title: `${botname}`,
           body: `SCRIPT OF ${botname} is on YouTube @Avishka Shavinda`,
-          thumbnailUrl: 'https://telegra.ph/file/f882340c425e5f7cd396c.jpg',
+          thumbnailUrl: 'https://f4.bcbits.com/img/a3204725627_16.jpg',
           sourceUrl: global.link,
           mediaType: 1,
           renderLargerThumbnail: true
