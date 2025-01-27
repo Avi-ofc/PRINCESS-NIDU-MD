@@ -1126,7 +1126,7 @@ await sendReaction('⏳');
                       showAdAttribution: true,
                       title: 'Broadcast By Owner',
                       body: `Sent ${i.length} Group`,
-                      thumbnailUrl: 'https://telegra.ph/file/f882340c425e5f7cd396c.jpg',
+                      thumbnailUrl: 'https://files.catbox.moe/023mo2.jpg',
                       sourceUrl: global.link,
                       mediaType: 1,
                       renderLargerThumbnail: true
@@ -1474,7 +1474,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                   showAdAttribution: true,
                   title: `${botname}`,
                   body: `${latensi.toFixed(4)} Second`,
-                  thumbnailUrl: 'https://telegra.ph/file/f882340c425e5f7cd396c.jpg',
+                  thumbnailUrl: 'https://files.catbox.moe/023mo2.jpg',
                   sourceUrl: global.link,
                   mediaType: 1,
                   renderLargerThumbnail: true
@@ -1499,7 +1499,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                   showAdAttribution: true,
                   title: `${botname}`,
                   body: `${ownername}`,
-                  thumbnailUrl: 'https://telegra.ph/file/f882340c425e5f7cd396c.jpg',
+                  thumbnailUrl: 'https://files.catbox.moe/023mo2.jpg',
                   sourceUrl: global.link,
                   mediaType: 1,
                   renderLargerThumbnail: true
@@ -1521,7 +1521,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                   showAdAttribution: true,
                   title: `${botname}`,
                   body: `FORGET DONATE`,
-                  thumbnailUrl: 'https://telegra.ph/file/f882340c425e5f7cd396c.jpg',
+                  thumbnailUrl: 'https://files.catbox.moe/023mo2.jpg',
                   sourceUrl: global.link,
                   mediaType: 1,
                   renderLargerThumbnail: true
@@ -1543,7 +1543,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                   showAdAttribution: true,
                   title: `${botname}`,
                   body: `SCRIPT OF ${botname} is on YouTube @Avishka Shavinda`,
-                  thumbnailUrl: 'https://telegra.ph/file/f882340c425e5f7cd396c.jpg',
+                  thumbnailUrl: 'https://files.catbox.moe/023mo2.jpg',
                   sourceUrl: global.link,
                   mediaType: 1,
                   renderLargerThumbnail: true
@@ -2776,13 +2776,13 @@ break
   case 'good morning':
     await sendReaction('⏳');
     Avishka.sendMessage(m.chat, {
-      text: `Good Morning \n සුභ උදෑසනක්`,
+      text: ` \n ${avitimewisher} \n `,
       contextInfo: {
         externalAdReply: {
           showAdAttribution: true,
           title: `${botname}`,
           body: `SCRIPT OF ${botname} is on YouTube @Avishka Shavinda`,
-          thumbnailUrl: 'https://telegra.ph/file/f882340c425e5f7cd396c.jpg',
+          thumbnailUrl: 'https://files.catbox.moe/023mo2.jpg',
           sourceUrl: global.link,
           mediaType: 1,
           renderLargerThumbnail: true
@@ -2806,7 +2806,7 @@ break
   case 'good night':
     await sendReaction('⏳');
     Avishka.sendMessage(m.chat, {
-      text: `Good Night \n `,
+      text: `\n ${avitimewisher} \n `,
       contextInfo: {
         externalAdReply: {
           showAdAttribution: true,
@@ -2830,13 +2830,13 @@ break
   case 'moko karanne':
     await sendReaction('⏳');
     Avishka.sendMessage(m.chat, {
-      text: `mukuth nh \n oya moko karanne ithin?`,
+      text: ` ${avitimewisher} \n mukuth nh \n oya moko karanne ithin?`,
       contextInfo: {
         externalAdReply: {
           showAdAttribution: true,
           title: `${botname}`,
           body: `SCRIPT OF ${botname} is on YouTube @Avishka Shavinda`,
-          thumbnailUrl: 'https://telegra.ph/file/f882340c425e5f7cd396c.jpg',
+          thumbnailUrl: 'https://files.catbox.moe/023mo2.jpg',
           sourceUrl: global.link,
           mediaType: 1,
           renderLargerThumbnail: true
@@ -2852,16 +2852,16 @@ break
             
   
   
-            case 'alive':
+            case 'alive': case 'avi'; case 'avishka'; case 'shavinda';
                 await sendReaction('⏳');
                 Avishka.sendMessage(m.chat, {
-                    text: `*Hellow ${pushname}* \n *Im Alive Now* \n *Type Menu for my command list*`,
+                    text: `*Hellow ${pushname}* \n ${avitimewisher} \n *Im Alive Now* \n *Type Menu for my command list*`,
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
                             title: `${botname}`,
                             body: `SCRIPT OF ${botname} is on YouTube @Avishka Shavinda`,
-                            thumbnailUrl: 'https://telegra.ph/file/f882340c425e5f7cd396c.jpg',
+                            thumbnailUrl: 'https://files.catbox.moe/023mo2.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -2871,7 +2871,7 @@ break
                     quoted: m
                 }),
     Avishka.sendMessage(m.chat, { 
-           audio: { url: 'https://files.catbox.moe/mx3grx.mp3' },
+           audio: { url: 'https://files.catbox.moe/ctcl6a.mp3' },
            mimetype: 'audio/mp4', 
            ptt: true 
        },{ quoted: m }
@@ -3067,7 +3067,7 @@ break
                                   externalAdReply: {
                                       title: botname,
                                       body: ownername,
-                                      thumbnailUrl: 'https://telegra.ph/file/f882340c425e5f7cd396c.jpg',
+                                      thumbnailUrl: 'https://files.catbox.moe/023mo2.jpg',
                                       sourceUrl: link,
                                       mediaType: 1,
                                       renderLargerThumbnail: true
@@ -3085,7 +3085,7 @@ break
             externalAdReply: {
             title: botname,
             body: ownername,
-            thumbnailUrl: 'https://telegra.ph/file/f882340c425e5f7cd396c.jpg',
+            thumbnailUrl: 'https://files.catbox.moe/023mo2.jpg',
             sourceUrl: ``,
             mediaType: 1,
             renderLargerThumbnail: true
